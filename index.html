@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julies fotografier</title>
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="styling.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Julies fotografier</h1>
+
+      <div class="thumbnail-grid">
+        <img
+          src="aahnej.webp"
+          alt="Åh nej"
+          class="thumbnail"
+          onclick="scrollToImage(1)"
+        />
+        <img
+          src="bedstevenner.webp"
+          alt="Bedstevenner"
+          class="thumbnail"
+          onclick="scrollToImage(2)"
+        />
+        <img
+          src="dennoegnesandhed.webp"
+          alt="Den nøgne sandhed"
+          class="thumbnail"
+          onclick="scrollToImage(3)"
+        />
+        <img
+          src="dervarengang.webp"
+          alt="Der var engang"
+          class="thumbnail"
+          onclick="scrollToImage(4)"
+        />
+        <img
+          src="desmaating.webp"
+          alt="De små ting"
+          class="thumbnail"
+          onclick="scrollToImage(5)"
+        />
+        <img
+          src="ekstase.webp"
+          alt="Ekstase"
+          class="thumbnail"
+          onclick="scrollToImage(6)"
+        />
+
+        <img
+          src="ensom.webp"
+          alt="Ensom"
+          class="thumbnail"
+          onclick="scrollToImage(7)"
+        />
+        <img
+          src="etsaerligtsted.webp"
+          alt="Et særligt sted"
+          class="thumbnail"
+          onclick="scrollToImage(8)"
+        />
+        <img
+          src="etuligeantal.webp"
+          alt="Et ulige antal"
+          class="thumbnail"
+          onclick="scrollToImage(9)"
+        />
+        <img
+          src="fodspor.webp"
+          alt="Fodspor"
+          class="thumbnail"
+          onclick="scrollToImage(10)"
+        />
+        <img
+          src="forendenafregnbuen.webp"
+          alt="Forenden af regnbuen"
+          class="thumbnail"
+          onclick="scrollToImage(11)"
+        />
+        <img
+          src="fredfyldt.webp"
+          alt="Fredfyldt"
+          class="thumbnail"
+          onclick="scrollToImage(12)"
+        />
+
+        <img
+          src="hvadgikdergalt.webp"
+          alt="Hvad gik der galt"
+          class="thumbnail"
+          onclick="scrollToImage(13)"
+        />
+        <img
+          src="midnatstimen.webp"
+          alt="Midnatstimen"
+          class="thumbnail"
+          onclick="scrollToImage(14)"
+        />
+        <img
+          src="naarlysetfalder.webp"
+          alt="Når lyset falder"
+          class="thumbnail"
+          onclick="scrollToImage(15)"
+        />
+        <img
+          src="paahovedet.webp"
+          alt="På hovedet"
+          class="thumbnail"
+          onclick="scrollToImage(16)"
+        />
+        <img
+          src="paspaaos.webp"
+          alt="Pas på os"
+          class="thumbnail"
+          onclick="scrollToImage(17)"
+        />
+        <img
+          src="passion.webp"
+          alt="Passion"
+          class="thumbnail"
+          onclick="scrollToImage(18)"
+        />
+
+        <img
+          src="saaerdetligefoer.webp"
+          alt="Så er det lige før"
+          class="thumbnail"
+          onclick="scrollToImage(19)"
+        />
+        <img
+          src="sidstmenikkemindst.webp"
+          alt="Sidst men ikke mindst"
+          class="thumbnail"
+          onclick="scrollToImage(20)"
+        />
+        <img
+          src="skraemmende.webp"
+          alt="Skræmmende"
+          class="thumbnail"
+          onclick="scrollToImage(21)"
+        />
+        <img
+          src="smilpaalaeben.webp"
+          alt="Smil på læben"
+          class="thumbnail"
+          onclick="scrollToImage(22)"
+        />
+        <img
+          src="udafskyggerne.webp"
+          alt="Ud af skyggerne"
+          class="thumbnail"
+          onclick="scrollToImage(23)"
+        />
+        <img
+          src="uendeligkaerlighed.webp"
+          alt="Uendelig kærlighed"
+          class="thumbnail"
+          onclick="scrollToImage(24)"
+        />
+      </div>
+
+      <div class="gallery">
+        <div class="gallery-item" id="image1">
+          <div class="image-container">
+            <img src="aahnej.webp" alt="Åh nej" />
+          </div>
+          <div class="text-container">
+            <h3>Åh nej</h3>
+            <p>Åh nej. Parkeringsbøder til hele rækken.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image2">
+          <div class="image-container">
+            <img src="bedstevenner.webp" alt="Bedstevenner" />
+          </div>
+          <div class="text-container">
+            <h3>Bedste venner</h3>
+            <p>Min bedste ven Pjuske og jeg.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image3">
+          <div class="image-container">
+            <img src="dennoegnesandhed.webp" alt="Den nøgne sandhed" />
+          </div>
+          <div class="text-container">
+            <h3>Den nøgne sandhed</h3>
+            <p>Nounny i blitz.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image4">
+          <div class="image-container">
+            <img src="dervarengang.webp" alt="Der var engang" />
+          </div>
+          <div class="text-container">
+            <h3>Der var engang</h3>
+            <p>Hvor jeg var lille.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image5">
+          <div class="image-container">
+            <img src="desmaating.webp" alt="De små ting" />
+          </div>
+          <div class="text-container">
+            <h3>De små ting</h3>
+            <p>Kaffe.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image6">
+          <div class="image-container">
+            <img src="ekstase.webp" alt="Ekstase" />
+          </div>
+          <div class="text-container">
+            <h3>Ekstase</h3>
+            <p>Bedste venner følelsen.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image7">
+          <div class="image-container">
+            <img src="ensom.webp" alt="Ensom" />
+          </div>
+          <div class="text-container">
+            <h3>Ensom</h3>
+            <p>Hund kigger ud i verden.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image8">
+          <div class="image-container">
+            <img src="etsaerligtsted.webp" alt="Et særligt sted" />
+          </div>
+          <div class="text-container">
+            <h3>Et særligt sted</h3>
+            <p>Et særligt sted for mig.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image9">
+          <div class="image-container">
+            <img src="etuligeantal.webp" alt="Et ulige antal" />
+          </div>
+          <div class="text-container">
+            <h3>Et ulige antal</h3>
+            <p>3 ryttere.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image10">
+          <div class="image-container">
+            <img src="fodspor.webp" alt="Fodspor" />
+          </div>
+          <div class="text-container">
+            <h3>Fodspor</h3>
+            <p>Ubehageligt at gå her med allergi.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image11">
+          <div class="image-container">
+            <img src="forendenafregnbuen.webp" alt="For enden af regnbuen" />
+          </div>
+          <div class="text-container">
+            <h3>For enden af regnbuen</h3>
+            <p>En smuk regnbue udenfor min gamle lejlighed i Berlin.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image12">
+          <div class="image-container">
+            <img src="fredfyldt.webp" alt="Fredfyldt" />
+          </div>
+          <div class="text-container">
+            <h3>Fredfyldt</h3>
+            <p>Kristall græsser roligt.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image13">
+          <div class="image-container">
+            <img src="hvadgikdergalt.webp" alt="Hvad gik der galt" />
+          </div>
+          <div class="text-container">
+            <h3>Hvad gik der galt</h3>
+            <p>Nounny ligger på en pose.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image14">
+          <div class="image-container">
+            <img src="midnatstimen.webp" alt="Midnatstimen" />
+          </div>
+          <div class="text-container">
+            <h3>Midnatstimen</h3>
+            <p>Mørket falder på.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image15">
+          <div class="image-container">
+            <img src="naarlysetfalder.webp" alt="Når lyset faldet" />
+          </div>
+          <div class="text-container">
+            <h3>Når lyset falder</h3>
+            <p>Kristall i begyndende solnedgang.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image16">
+          <div class="image-container">
+            <img src="paahovedet.webp" alt="På hovedet" />
+          </div>
+          <div class="text-container">
+            <h3>På hovedet</h3>
+            <p>Min tatovering på hovedet.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image17">
+          <div class="image-container">
+            <img src="paspaaos.webp" alt="Pas på os" />
+          </div>
+          <div class="text-container">
+            <h3>Pas på os</h3>
+            <p>Beware of us.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image18">
+          <div class="image-container">
+            <img src="passion.webp" alt="Passion" />
+          </div>
+          <div class="text-container">
+            <h3>Passion</h3>
+            <p>Addrenalin of sejrsfølelse.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image19">
+          <div class="image-container">
+            <img src="saaerdetligefoer.webp" alt="Så er det lige før" />
+          </div>
+          <div class="text-container">
+            <h3>Så er det lige før</h3>
+            <p>At det går løs for de her studenter.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image20">
+          <div class="image-container">
+            <img src="sidstmenikkemindst.webp" alt="Sidst men ikke mindst" />
+          </div>
+          <div class="text-container">
+            <h3>Sidst men ikke mindst</h3>
+            <p>En solnedgang tæt på mit nye sted at bo i København.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image21">
+          <div class="image-container">
+            <img src="skraemmende.webp" alt="Skræmmende" />
+          </div>
+          <div class="text-container">
+            <h3>Skræemmende</h3>
+            <p>Kristall gaber.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image22">
+          <div class="image-container">
+            <img src="smilpaalaeben.webp" alt="Smil på læben" />
+          </div>
+          <div class="text-container">
+            <h3>Smil på læben</h3>
+            <p>En glad Fina.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image23">
+          <div class="image-container">
+            <img src="udafskyggerne.webp" alt="Ud af skyggerne" />
+          </div>
+          <div class="text-container">
+            <h3>Ud af skyggerne</h3>
+            <p>En lille kat på Kristalls ryg.</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="image24">
+          <div class="image-container">
+            <img src="uendeligkaerlighed.webp" alt="Uendelig kærlighed" />
+          </div>
+          <div class="text-container">
+            <h3>Uendelig kærlighed</h3>
+            <p>Uendelig kærlighed mellem mine venner og jeg.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function scrollToImage(imageNumber) {
+        const target = document.getElementById(`image${imageNumber}`);
+        if (target) {
+          target.scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+          });
+
+          target.style.transform = "scale(1.02)";
+          target.style.transition = "transform 0.3s ease";
+
+          setTimeout(() => {
+            target.style.transform = "scale(1)";
+          }, 300);
+        }
+      }
+
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "50px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.animationPlayState = "running";
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll(".gallery-item").forEach((item) => {
+        observer.observe(item);
+      });
+    </script>
+  </body>
+</html>
